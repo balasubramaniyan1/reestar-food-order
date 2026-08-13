@@ -32,6 +32,7 @@
     text-align: center;
     margin: 0px;
     vertical-align: top;
+    vertical-align: bottom;
 }
 
 .cardContainer__food-img {
@@ -89,6 +90,7 @@
 
 .contact__description-submit {
     margin: 0;
+    display: inline-block;
 }
 
 .contact__description-submit input {
