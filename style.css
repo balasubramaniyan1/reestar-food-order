@@ -41,7 +41,9 @@
 }
 
 .cardContainer__food-title {
-    display: inline;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .cardContainer__food-des {
@@ -99,11 +101,11 @@
 
 .contact__description-submit {
     margin: 0;
-    display: inline-block;
 }
 
 .contact__description-submit input {
-    width: 400px;
+    padding-left: 200px;
+    padding-right: 200px;
     background-color: yellow;
     color: black;
     margin: 0px;
