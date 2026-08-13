@@ -32,13 +32,22 @@
     text-align: center;
     margin: 0px;
     vertical-align: top;
-    vertical-align: bottom;
 }
 
 .cardContainer__food-img {
     width: 200px;
     height: 200px;
     margin: 0px;
+}
+
+.cardContainer__food-title {
+    display: inline;
+}
+
+.cardContainer__food-des {
+    line-height: 1.5em;
+    height: 4.5em;
+    overflow: hidden;
 }
 
 .cardContainer__food-order {
