@@ -1,0 +1,99 @@
+* {
+    margin: 10px;
+}
+
+.navBar {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+.navBar__des,
+.navBar__title {
+    margin: 5px;
+}
+
+.navBar__des {
+    color: gray;
+}
+
+.cardContainer {
+    background-color: white;
+    text-align: center;
+}
+
+.cardContainer__food {
+    background-color: white;
+    height: auto;
+    width: 200px;
+    display: inline-block;
+    border: solid black 2px;
+    text-align: center;
+    margin: 0px;
+    vertical-align: top;
+}
+
+.cardContainer__food-img {
+    width: 200px;
+    height: 200px;
+    margin: 0px;
+}
+
+.cardContainer__food-order {
+    background-color: black;
+    padding: 2px;
+    margin: 0px;
+    border: 0px;
+    text-decoration: none;
+    color: white;
+}
+
+.contact {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.contact__title {
+    margin: 0;
+
+}
+
+.contact__description {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+
+.contact__description-1 {
+    margin: 0px;
+}
+
+.contact__description td {
+    text-align: left;
+}
+
+.contact__description label {
+    padding: 0px;
+    margin: 0px;
+    text-align: left;
+    display: inline-block;
+}
+
+.contact__description input {
+    padding: 0px;
+    margin: 0px;
+}
+
+.contact__description-submit {
+    margin: 0;
+}
+
+.contact__description-submit input {
+    width: 400px;
+    background-color: yellow;
+    color: black;
+    margin: 0px;
+}
