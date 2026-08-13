@@ -104,8 +104,7 @@
 }
 
 .contact__description-submit input {
-    padding-left: 200px;
-    padding-right: 200px;
+    width: 50%;
     background-color: yellow;
     color: black;
     margin: 0px;
